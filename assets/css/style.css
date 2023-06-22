@@ -1,5 +1,7 @@
 @import url(fonts.css);
-
+body {
+    font-family: 'Open Sans';
+}
 ul, li {
     display: block;
     padding: 0;
@@ -21,4 +23,106 @@ ul, li {
 .menu__item a:hover {
     text-decoration: none;
     color: #868686;
+}
+/* Header block */
+.header > div {
+    color: #ffffff;
+    text-align: center;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url(../img/heder.png);
+}
+.header__title {
+    font-size: 55px;
+}
+.header__text {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.button_empty {
+    background: transparent;
+    border: 2px solid white;
+}
+.button_full {
+    background: #00897b;
+    border: 2px solid #00897b;
+}
+.button_empty:hover,
+.button_full:hover {
+    background: #04574e;
+    border: 2px dotted #ffffff;
+}
+/* About block */
+.about {
+    padding-top: 120px;
+    padding-bottom: 125px;
+    color: black;
+    background: #ffffff;
+    text-align: center;
+}
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text {
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+.about_h3 {
+    font-family: 'Open Sans Smibold';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* Our Services */
+.services {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+}
+.our_card {
+    background: #ffffff;
+    padding: 50px 40px 40px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.our_card:hover {
+    background: #00897b;
+    color: #ffffff;
+    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+.our_card:hover .icon {
+    color: #ffffff;
+}
+.our_card:hover .button-services {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.icon {
+    transition: 0.3s;
+    font-size: 60px;
+    color: black;
+}
+.button-services {
+    transition: 0.3s;
+    text-transform: uppercase;
+    border: 2px solid black;
+    color: black;
+    background: transparent;
+    padding: 10px 12px 10px;
+    font-family: 'Open Sans Smibold';
+    font-weight: bold;
+}
+.button-services:hover {
+    cursor: pointer;
 }
