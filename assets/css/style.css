@@ -25,7 +25,7 @@ ul, li {
     color: #868686;
 }
 /* Header block */
-.header > div {
+.header {
     color: #ffffff;
     text-align: center;
     padding: 180px 0;
@@ -41,23 +41,17 @@ ul, li {
     margin-bottom: 100px;
 }
 .button {
+    cursor: pointer;
     padding: 10px 25px;
     margin: 0 10px;
     color: #ffffff;
     transition: 0.3s;
-}
-.button_empty {
-    background: transparent;
-    border: 2px solid white;
-}
-.button_full {
     background: #00897b;
     border: 2px solid #00897b;
 }
-.button_empty:hover,
-.button_full:hover {
-    background: #04574e;
-    border: 2px dotted #ffffff;
+.button:hover {
+    background: transparent;
+    border: 2px solid white;
 }
 /* About block */
 .about {
