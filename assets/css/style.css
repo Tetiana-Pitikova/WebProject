@@ -177,7 +177,7 @@ div[filter]:hover .text {
 .price__head {
     font-family: 'Open Sans Regular';
     color: #ffffff;
-    background-image: url(/assets/img/Rectangle\ 14.png);
+    background-image: url(../img/Rectangle\ 14.png);
     background-size: cover;
     background-repeat: no-repeat;
     max-height: 211px;
